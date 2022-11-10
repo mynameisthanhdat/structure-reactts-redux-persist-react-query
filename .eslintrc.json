@@ -1,0 +1,46 @@
+{
+  "env": {
+    "browser": true,
+    "es2021": true
+  },
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "plugin:@typescript-eslint/recommended",
+    "prettier"
+  ],
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": "latest",
+    "sourceType": "module"
+  },
+  "plugins": ["react", "@typescript-eslint"],
+  "rules": {
+    "react-hooks/exhaustive-deps": "off",
+    "no-var": "error",
+    "no-console": "warn",
+    "brace-style": "error",
+    "prefer-template": "error",
+    "radix": "error",
+    "space-before-blocks": "warn",
+    "import/prefer-default-export": "off",
+    "react/prop-types": "off",
+    "react/display-name": "off",
+    "@typescript-eslint/no-unused-vars": "warn",
+    "@typescript-eslint/no-explicit-any": "off",
+    "@typescript-eslint/explicit-module-boundary-types": "off",
+    "@typescript-eslint/no-empty-function": "off",
+    "@typescript-eslint/no-empty-interface": "off",
+    "@typescript-eslint/no-empty-type": "off",
+    "jsx-a11y/label-has-associated-control": "off",
+    "jsx-a11y/label-has-for": "off",
+    "no-debugger": "warn",
+    "no-constant-condition": "off",
+    "@next/next/no-img-element": "off",
+    "semi": ["error", "never"],
+    "@typescript-eslint/no-var-requires": "off"
+  }
+}
